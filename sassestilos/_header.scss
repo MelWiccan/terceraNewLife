@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(166, 128, 140);
+    height: 100px;
+    padding: 40px 50px 40px 50px;
+    margin: 20px 10px 20px 10px;
+    position: sticky;
+    top: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+
+    nav {
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    color: rgb(52, 78, 65);
+                }
+
+            }
+        }
+
+    }
+
+}
+.verde{
+    background-color: rgb(166, 128, 140);
+
+}
+
+.negro{
+    color: black;
+}
+.negro:hover{
+    background-color: rgb(88, 129, 87);
+}
+.enlace:hover{
+    color: rgb(52, 78, 65)!important;
+}

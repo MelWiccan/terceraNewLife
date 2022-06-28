@@ -1,0 +1,49 @@
+main {
+    color: rgb(52, 78, 65);
+
+    h1 {
+        color: rgb(52, 78, 65);
+        padding: 20px;
+        margin: 20px 10px 20px 10px;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Poppins', sans-serif
+    }
+
+    form {
+        color: rgb(52, 78, 65);
+        text-align: center;
+        font-size: medium;
+        font-family: 'Poppins', sans-serif;
+
+        .genero {
+            display: inline-block
+        }
+
+        .hombre {
+            display: inline-block
+        }
+
+        .mujer {
+            display: inline-block
+        }
+
+        .prefieroNoDecirlo {
+            display: inline-block
+        }
+
+        select {
+            font-size: small;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        input {
+            font-size: small;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+    }
+
+}

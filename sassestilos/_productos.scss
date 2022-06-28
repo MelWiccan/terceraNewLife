@@ -1,0 +1,18 @@
+
+body main section img {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+  
+    .ovalo{
+        border-radius: 50%;
+      }
+      .ovalo:hover{
+        transform: scale(1.2s);
+      }
+      .ovalo{
+        transition-property: all;
+        transition-duration: 1s;
+      }
+

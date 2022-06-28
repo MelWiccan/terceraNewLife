@@ -1,0 +1,121 @@
+/*SMARTPHONE*/
+
+@media (max-width:480px) {
+
+    .headerIndex {
+        height: 120px;
+        width: 100%;
+    }
+
+
+    .ulIndex {
+        list-style: none;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .imagesIndex {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+/*TABLET*/
+@media (min-width:481) {
+    .ulIndex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imagesIndex {
+        display: flex;
+        flex-direction: row;
+
+    }
+    .videoIndex{
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+
+
+
+}
+
+/*RESPONSIVE - página PRODUCTOS*/
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*SMARTPHONE PRODUCTOS*/
+@media (max-width:480px) {
+    .productos {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+.hTres{
+    font-size: small;
+    text-align: center;
+}
+
+.redimension{
+
+        max-width:50%;
+        max-height:50%;
+      
+}
+.videoResponsive{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    
+}
+.videoResp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagesIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.videoIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+
+}
+.productosDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
